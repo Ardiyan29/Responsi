@@ -1,7 +1,0 @@
-D:\ARDIYAN RIZKI NUGRAHA\PEMROGRAMAN\responsi\ProjectPenjualan\ProjectPenjualan\obj\Debug\ProjectPenjualan.csprojAssemblyReference.cache
-D:\ARDIYAN RIZKI NUGRAHA\PEMROGRAMAN\responsi\ProjectPenjualan\ProjectPenjualan\obj\Debug\ProjectPenjualan.csproj.CoreCompileInputs.cache
-D:\ARDIYAN RIZKI NUGRAHA\PEMROGRAMAN\responsi\ProjectPenjualan\ProjectPenjualan\bin\Debug\ProjectPenjualan.exe.config
-D:\ARDIYAN RIZKI NUGRAHA\PEMROGRAMAN\responsi\ProjectPenjualan\ProjectPenjualan\bin\Debug\ProjectPenjualan.exe
-D:\ARDIYAN RIZKI NUGRAHA\PEMROGRAMAN\responsi\ProjectPenjualan\ProjectPenjualan\bin\Debug\ProjectPenjualan.pdb
-D:\ARDIYAN RIZKI NUGRAHA\PEMROGRAMAN\responsi\ProjectPenjualan\ProjectPenjualan\obj\Debug\ProjectPenjualan.exe
-D:\ARDIYAN RIZKI NUGRAHA\PEMROGRAMAN\responsi\ProjectPenjualan\ProjectPenjualan\obj\Debug\ProjectPenjualan.pdb
