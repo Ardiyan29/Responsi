@@ -8,7 +8,7 @@ namespace ProjectPenjualan
     class Program
     {
         // deklarasi objek collection untuk menampung objek penjualan
-        static List<string> daftarPenjualan = new List<string>();
+        static List<Penjualan> daftarPenjualan = new List<Penjualan>();
 
         static void Main(string[] args)
         {
@@ -56,14 +56,18 @@ namespace ProjectPenjualan
         {
             Console.Clear();
 
-            Penjualan pjl = new Penjualan();
+            //Penjualan pjl = new Penjualan(nota, tanggal, customer, jenis, totalNota);
 
             Console.WriteLine("Tambah Data Penjualan\n");
-            Console.Write("Nota : "); pjl.Nota = Convert.ToInt32(Console.ReadLine());
-            Console.Write("Tanggal : "); pjl.Tanggal = Console.ReadLine();
-            Console.Write("Customer : "); pjl.Customer = Console.ReadLine();
-            Console.Write("Jenis [T/K] : "); pjl.Jenis = Console.ReadLine();
-            Console.Write("Total Nota : "); pjl.Total = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Nota : "); string nota = Console.ReadLine();
+            Console.Write("Tanggal : "); string tanggal = Console.ReadLine();
+            Console.Write("Customer : "); string customer = Console.ReadLine();
+            Console.Write("Jenis [T/K] : "); string jenis = Console.ReadLine();
+            Console.Write("Total Nota : "); int totalNota = Convert.ToInt32(Console.ReadLine());
+
+            Penjualan pjl = new Penjualan(nota, tanggal, customer, jenis, totalNota);
+
+            daftarPenjualan.Add(pjl);
 
             // PERINTAH: lengkapi kode untuk menambahkan penjualan ke dalam collection
 
@@ -74,6 +78,16 @@ namespace ProjectPenjualan
         static void TampilPenjualan()
         {
             Console.Clear();
+
+            int i = 1;
+
+            Console.WriteLine("Data Penjualan");
+
+            foreach (Penjualan pnj in daftarPenjualan)
+            {
+                Console.WriteLine("{0}. {1}, {2}, {3}, {4}, {5}", i, pnj.Nota, pnj.Tanggal, pnj.Customer, pnj.Jenis, pnj.TotalNota);
+                i++;
+            }
 
             // PERINTAH: lengkapi kode untuk menampilkan daftar penjualan yang ada di dalam collection
 
